@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2024-09-20T06:14:58.097Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="1iMYWuZMA2ExRhFzVZlS" version="24.3.1" type="device">
+  <diagram name="Page-1" id="YlCTxdCD6XHzkuvKsiHy">
+    <mxGraphModel dx="1050" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-2" target="dF-b9gtkx6NvM5CvrDqd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-2" value="Get raw dataset" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-4" target="dF-b9gtkx6NvM5CvrDqd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-4" value="Supervised Learning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-6" target="dF-b9gtkx6NvM5CvrDqd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-6" value="Extract useful data&lt;div&gt;from the dataset&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-8" target="dF-b9gtkx6NvM5CvrDqd-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="380" />
+              <mxPoint x="200" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-8" value="Visualization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-10" target="dF-b9gtkx6NvM5CvrDqd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-10" value="Prepare data&lt;div&gt;for training&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-12" target="dF-b9gtkx6NvM5CvrDqd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-12" value="Predicting most common start points" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="180" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-14" target="dF-b9gtkx6NvM5CvrDqd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-14" value="Obtained clusters of high demand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-16" target="dF-b9gtkx6NvM5CvrDqd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-16" value="Predict end&lt;div&gt;points&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;based&lt;/span&gt;&lt;div&gt;on start&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;points&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="15" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-18" target="dF-b9gtkx6NvM5CvrDqd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-18" value="Obtained start and end points of common clusters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-20" value="Send the data to simulation for Unsuper&lt;span style=&quot;background-color: initial;&quot;&gt;vised Learning&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-22" target="dF-b9gtkx6NvM5CvrDqd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-22" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-23" target="dF-b9gtkx6NvM5CvrDqd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-23" value="Create city map" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-25" target="dF-b9gtkx6NvM5CvrDqd-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="730" />
+              <mxPoint x="200" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-25" value="Add agents to the&lt;div&gt;map that pick up passengers&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-27" target="dF-b9gtkx6NvM5CvrDqd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-27" value="Add agents to the&lt;div&gt;map that pick up passengers&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-29" target="dF-b9gtkx6NvM5CvrDqd-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-29" value="Passengers are added according to the data from the prediction model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-31" target="dF-b9gtkx6NvM5CvrDqd-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="730" />
+              <mxPoint x="400" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-31" value="Agent learns&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;from&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the simulation&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dF-b9gtkx6NvM5CvrDqd-33" target="dF-b9gtkx6NvM5CvrDqd-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-33" value="Model is saved&lt;div&gt;and deployed&lt;/div&gt;&lt;div&gt;in real world&lt;/div&gt;&lt;div&gt;application&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="480" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dF-b9gtkx6NvM5CvrDqd-35" value="Observations are noted into research paper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
