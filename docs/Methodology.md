@@ -78,7 +78,42 @@ The third and output layer has 3 neurons for the three categories
 
 We use a sparse_categorical_crossentropy loss function while compling the model
 
-### Model Training
+### Model Fitting
 
 The model is fit using the training data with the test data being used for validation
 
+## Model Testing
+
+The model is tested first using tesnorflow model evaluation for metrics such as accuracy score
+
+Then we make predicitons of the test data from the model and use scikit-learn metrics such as classification report and the confusion matrix
+
+The confusion matrix recieved is
+
+[[298051 153194 164989]
+ [115057 209549 286249]
+ [ 22716  95723 302969]]
+
+ We use seaborn and matplotlib to represent the confusion matrix in an easy to read format
+
+ ## Real-Time Prediciton
+
+### Prediciton
+We want to predict the demand for all the different areas in the city at any specific point in time, to do so we will create a function that takes in a datetime value (defaults to current datetime value)
+
+Using the datetime value we will first extract the hour, weekday and week values as in our training data, then we will convert them to cyclic values to align with the format that the model was trained on
+
+Now we create a dataframe for all the LocationID values and add the time features to them, the dataframe should follow the format of our training data except it will have an entry for each LocationID for our selected time
+
+Next we pass in this dataframe into the model for it to make predictions, the predicitons are saved along with their LocationIDs in a dataframe and returned out of the function
+
+### Presentation
+Now that we have demand categories for each loaction ID for our specified time we now need to visualize it
+
+Using the taxi_zones data found at the NYC Taxi & Limousine Commission website we get the geographic polygonal data for each zone (Zones have been refered by PULoactionID or LocationID throughout our documentation) which can be plotted onto a map
+
+This data is then joined with our output to get the demand for each zone or for the context of representation, the color
+
+Using the folium and shapely libraries we initialize the map at NYC, then iterate through each entry in the dataset to add the respectively colored polygon onto the map
+
+The map can be seen with green zones representing high demand areas, yellow zones representing medium demand areas and red zones representing low demand areas
