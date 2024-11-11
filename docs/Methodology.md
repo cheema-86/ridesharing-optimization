@@ -38,6 +38,7 @@ Now we repeat the process for all other month data and append it to the new data
 
 Our final dataframe has the following columns
 
+```
  0   Column         Dtype  
 ---  ------         -----  
  0   PULocationID   int64  
@@ -51,6 +52,7 @@ Our final dataframe has the following columns
  8   weekday_cos    float64
  9   week_sin       Float64
  10  week_cos       Float64
+```
 
 ## Model Training
 
@@ -90,9 +92,11 @@ Then we make predicitons of the test data from the model and use scikit-learn me
 
 The confusion matrix recieved is
 
+```
 [[298051 153194 164989]
  [115057 209549 286249]
  [ 22716  95723 302969]]
+```
 
  We use seaborn and matplotlib to represent the confusion matrix in an easy to read format
 
