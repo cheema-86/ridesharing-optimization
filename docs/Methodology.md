@@ -98,9 +98,9 @@ The confusion matrix recieved is
  [ 22716  95723 302969]]
 ```
 
- We use seaborn and matplotlib to represent the confusion matrix in an easy to read format
+We use seaborn and matplotlib to represent the confusion matrix in an easy to read format
 
- ## Real-Time Prediciton
+## Real-Time Prediciton
 
 ### Prediciton
 We want to predict the demand for all the different areas in the city at any specific point in time, to do so we will create a function that takes in a datetime value (defaults to current datetime value)
